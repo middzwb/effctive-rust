@@ -22,8 +22,7 @@ jobs:
       - name: Build
         run: cargo build --verbose
       - name: Exec
-        run: cargo run |
-          ll
+        run: cargo run
       - name: Run tests
         run: cargo test --verbose
  
