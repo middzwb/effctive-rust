@@ -1,5 +1,24 @@
 # effctive-rust
 
+## cargo
+
+包管理工具。
+
+cargo new
+cargo build
+cargo run
+
+配置下载镜像为国内镜像。
+
+## 基本类型
+
+* 避免在浮点数上测试相等性
+* 当结果在数学上可能存在未定义时，需要格外的小心
+
+字符类型：unicode，所以字符占 4 字节。
+
+单元类型 `()`。
+
 ## 坑
 
 1. win7 下安装 rust
